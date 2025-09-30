@@ -1,0 +1,130 @@
+body{ 
+    width: 1200px; 
+    margin: auto;
+    font-family: "OpenSans-Bold", sans-serif;
+
+}
+
+.header{
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    margin-top: 40px;
+    gap: 30px;
+}
+.ask-btn{
+    background-color: #33836E;
+    border: none;
+    border-radius:10px ;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+}
+.phone-number{
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+}
+.search{
+    width: 427px;
+    border: none;
+    font-size: 16px;
+    background-color: rgb(170, 170, 170);    
+    border-radius: 10px;
+    padding: 10px;
+   
+}
+.menu{
+    display: flex;
+    margin-top: 40px;
+    gap: 30px;
+    justify-content: space-between;
+    font-size: 16px;
+    align-items: center;
+    text-decoration: none;
+}
+menu a{
+    text-decoration: none;
+    color: black;
+}
+.menu-border{  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: transparent url(/png/phone.svg) no-repeat center left;
+    background-size: auto;
+    border: 1px solid rgb(170, 170, 170);
+    border-radius: 10px;
+    padding: 15px 25px;
+    text-decoration: none;
+     color: black;
+
+}
+.menu-border2{  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: transparent url(/png/telegram.svg) no-repeat center left;
+    
+    background-size: auto;
+    border: 1px solid rgb(170, 170, 170);
+    border-radius: 10px;
+    padding: 15px 25px;
+    text-decoration: none;
+     color: black;
+
+}
+.menu-link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+     color: black;
+}
+.reg-log{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   text-decoration: none;
+    color: black;
+}
+.user{
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.nav{
+   display: flex;
+    margin-top: 40px;
+    gap: 30px;
+    justify-content: space-between;
+    font-size: 16px;
+    align-items: center;
+    text-decoration: none; 
+     color: black;
+}
+.gor_line{
+ color: var(--base-black, #140a32);
+  text-align: left;
+  font-family: "OpenSans-Bold", sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+  position: relative;
+}
+.send-question{
+    background-color: #33836E;
+    border: none;
+    border-radius:10px ;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+}
+.phone-urist1{
+    display: flex
+    height: 1px;
+    background-color: #33836E;
+    border: 0;
+
+}
