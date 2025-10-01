@@ -113,6 +113,9 @@ menu a{
   font-weight: 700;
   position: relative;
 }
+.dbaeb{
+    position: right;
+}
 .send-question{
     background-color: #33836E;
     border: none;
@@ -122,9 +125,64 @@ menu a{
     font-size: 16px;
 }
 .phone-urist1{
-    display: flex
-    height: 1px;
-    background-color: #33836E;
-    border: 0;
-
+  border-style: solid;
+  border-color: var(--green, #33836e);
+  border-width: 2px 0 0 0;
+  flex-shrink: 0;
+  width: 80px;
+  height: 0px;
+   position: center;
+}
+.phone-urist{
+       position: relative;
+   text-decoration: none;
+    flex-direction: row;
+    align-items: left;
+}
+.text-decor{
+    color: #9c9c9c;
+}
+.text-decor1{
+    color: #33836E ;
+    font-family: "OpenSans-Bold", sans-serif;
+    font-size: 27px;
+  font-weight: 700;
+}
+.qualitis{
+    border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.always{
+   flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible; 
+}
+.free{
+     flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.confidece{
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.speed{
+    flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
 }
