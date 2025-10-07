@@ -65,7 +65,6 @@ menu a{
     flex-direction: row;
     align-items: center;
     background: transparent url(/png/telegram.svg) no-repeat center left;
-    
     background-size: auto;
     border: 1px solid rgb(170, 170, 170);
     border-radius: 10px;
@@ -112,10 +111,11 @@ menu a{
   font-size: 38px;
   font-weight: 700;
   position: relative;
+  display: flex;
+  justify-content: space-between;
+
 }
-.dbaeb{
-    position: right;
-}
+
 .send-question{
     background-color: #33836E;
     border: none;
@@ -185,4 +185,13 @@ menu a{
   height: 24px;
   position: relative;
   overflow: visible;
+}
+.dbaeb{
+    display: block;
+    float: right;
+    width: auto ;
+    height: auto;
+    justify-content: center;
+    object-fit: cover;
+    position: relative;
 }
