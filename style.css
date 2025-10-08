@@ -128,16 +128,16 @@ menu a{
   border-style: solid;
   border-color: var(--green, #33836e);
   border-width: 2px 0 0 0;
-  flex-shrink: 0;
-  width: 80px;
+  width: 235px;
   height: 0px;
-   position: center;
+  
 }
 .phone-urist{
        position: relative;
    text-decoration: none;
     flex-direction: row;
     align-items: left;
+    
 }
 .text-decor{
     color: #9c9c9c;
@@ -152,7 +152,7 @@ menu a{
     border-radius: 20px;
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: 15px;
   align-items: center;
   justify-content: flex-start;
   flex-shrink: 0;
@@ -189,9 +189,38 @@ menu a{
 .dbaeb{
     display: block;
     float: right;
-    width: auto ;
-    height: auto;
+    width: 377px;
+    height: 402px;
     justify-content: center;
     object-fit: cover;
-    position: relative;
+    position: absolute;
+    left: 1300px;
+    top: 226px;
+}
+.ur_help{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  color: var(--base-black, #140a32);
+  text-align: left;
+  font-family: "OpenSans-Bold", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  position: relative;
+}
+.ur_help1{
+     box-sizing: border-box;
+  display: flex;
+  color: var(--base-black, #140a32);
+  text-align: left;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 160%;
+  font-weight: 400;
+  position: relative;
+  width: 1140px;
 }
