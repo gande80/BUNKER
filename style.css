@@ -213,7 +213,7 @@ menu a{
   position: relative;
 }
 .ur_help1{
-     box-sizing: border-box;
+  box-sizing: border-box;
   display: flex;
   color: var(--base-black, #140a32);
   text-align: left;
@@ -223,4 +223,29 @@ menu a{
   font-weight: 400;
   position: relative;
   width: 1140px;
+}
+.get_ur_help{
+
+
+}
+.b_text{
+  font-family: "OpenSans-Bold", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+.box_multi{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: flex-start;
+    border: 1px solid rgb(170, 170, 170);
+    border-radius: 20px;
+    padding: 20px;
+    text-decoration: none;
+     color: black;
+}
+.box1{
+  gap: 20px;
 }
