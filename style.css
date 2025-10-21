@@ -133,7 +133,7 @@ menu a{
   
 }
 .phone-urist{
-       position: relative;
+    position: relative;
    text-decoration: none;
     flex-direction: row;
     align-items: left;
@@ -177,7 +177,6 @@ menu a{
   width: 24px;
   height: 24px;
   position: relative;
-  overflow: visible;
 }
 .speed{
     flex-shrink: 0;
@@ -232,20 +231,23 @@ menu a{
   font-family: "OpenSans-Bold", sans-serif;
   font-size: 32px;
   font-weight: 700;
+  margin-top: 40px;
+  gap: 15px;
 }
 .box_multi{
-    display: flex;
-    flex-direction: column;
-    margin-top: 40px;
-    box-sizing: border-box;
-    justify-content: center;
-    align-items: flex-start;
-    border: 1px solid rgb(170, 170, 170);
-    border-radius: 20px;
-    padding: 20px;
-    text-decoration: none;
-     color: black;
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  padding: 20px;
+  border: 1px solid rgb(170, 170, 170);
+  border-radius: 20px;
+  width: 270px;
+  height: 180px;
+
 }
-.box1{
-  gap: 20px;
+
+.box_multi1 {
+    display: flex;
+   align-items: flex-start;
+   gap: 20px;
 }
